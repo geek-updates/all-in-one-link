@@ -1,0 +1,137 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+body {
+  background: rgb(57, 136, 229);
+  background: linear-gradient(
+    90deg,
+    rgba(57, 136, 229, 1) 0%,
+    rgba(68, 225, 181, 1) 100%
+  );
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40rem;
+  height: 50rem;
+  background-color: white;
+  border-radius: 3rem; /* This makes the element round */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a shadow for depth */
+}
+
+img {
+  width: 9rem;
+  height: 9rem;
+  padding-top: 2rem;
+}
+
+h1 {
+  margin: auto;
+  padding: auto;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 3.5rem;
+  color: rgb(85, 85, 85);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-heading, .footer {
+  color: rgb(85, 85, 85);
+  text-align: center;
+  padding-top: 1%;
+}
+
+.sub-heading h2 {
+  margin: 0;
+  color: rgb(139, 139, 139);
+  font-size: 1rem;
+  font-weight: 500;
+  padding-top: 0.5rem;
+}
+
+.footer h2 {
+    margin: 0;
+    color: rgb(139, 139, 139);
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 3rem;
+  }
+
+.insta,
+.whatsapp,
+.telegram,
+.youtube {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(238, 250, 255);
+  border-radius: 3rem;
+  width: 20rem;
+  height: 4rem;
+  align-items: center;
+  margin-top: 1.5rem;
+  
+}
+
+.insta span,
+.whatsapp span,
+.telegram span,
+.youtube span {
+  font-weight: 700;
+  color: rgb(85, 85, 85);
+}
+
+.insta:hover {
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.whatsapp:hover {
+  background: #3ac371;
+}
+
+.telegram:hover {
+  background: #2aabee;
+}
+
+.youtube:hover {
+  background: #ff0000;
+}
